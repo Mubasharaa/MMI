@@ -1,0 +1,67 @@
+.topBar{
+    height: 10px;
+    background-color: #2373B1;
+}
+.navOuterDiv{
+    width: 100%;
+    margin: auto;
+}
+#callNum{
+    margin-left: 60px;
+    padding: 5px;
+}
+#callNum i{
+    padding-right: 10px;
+    color: #2373B1;
+}
+.navBarDiv{
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    padding: 0px;
+    border-radius: 40px;
+    background-color: #F5F5F5;
+    height: 30px;
+    /* width: 80%; */
+}
+.navBarDiv img{
+    margin-left: 20px;
+    width: 45px;
+    height: 40px;
+}
+.firstIcon{
+    text-align: right;
+    margin-left: 780px;
+}
+.navBarDiv form ul{
+    margin-left: 80px;
+}
+.navBarDiv form ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+#search a {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 2px solid white;
+    /* color: var(--white); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-top: 0px;
+    transition: all 0.4s ease;
+    border: 2px solid white;
+    box-shadow: 2px 2px rgb(223, 220, 220);
+}
+
+#search a:hover {
+    color: white;
+    background-color: #2373B1;
+    border-color: #2373B1;
+}
+

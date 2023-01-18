@@ -1,0 +1,111 @@
+.testimonialDiv{
+    margin-top: 0px;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    padding-top: 10px;
+    background: url(./backimage.png);
+}
+.containert{
+    margin: auto;
+    width: 85%;
+}
+.happyHeading{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 70px;
+}
+.heading{
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: -10px;
+}
+.vect{
+    width: 50px;
+    height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: 50%;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    /* border: 4px solid #CCC; */
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    /* background: #333333; */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100px;
+    /* border-color: #f33; */
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    height: 300px;
+    margin: auto;
+    width: 100%;
+}
+.item .quoteDiv {
+    border-left: none;
+    margin: 0;
+    width: inherit;
+}
+
+.item .quoteDiv small{
+    color: #1370B5;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+/* carousel-control */
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 10%;
+    padding: 5px;
+    border-radius: 50%;
+}
+.carousel-control i {
+    font-size: 30px;
+	line-height: 32px;
+    position: absolute;
+    display: inline-block;
+    color: #1370B5;
+    width: inherit;
+    height: inherit;
+    padding: 3px;
+    border-radius: 50%;
+    border: 2px solid #1370B5;
+}

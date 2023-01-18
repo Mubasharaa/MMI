@@ -1,0 +1,33 @@
+.ram{
+    position:relative;
+    
+}
+.img__play{
+
+   width: 400px;
+   height: 400px;
+  
+}
+
+.image1{
+ 
+    display:flex;
+  
+    justify-content: space-evenly ;
+}
+.imagepa{
+    text-align: center;
+}
+.heartbeats{
+    padding-top: 2px;
+}
+.parag{
+    padding-top: 7px;
+}
+.btn {
+    height: 50px;
+    
+}
+#head{
+    color: rgb(80, 165, 198);
+}

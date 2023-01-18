@@ -1,0 +1,118 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+    --font1:'Lexend Deca', sans-serif;
+    --font2:'Big Shoulders Display', cursive;
+  }
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ::selection {
+      color: #000;
+      background-color: var(--Transparent);
+  }
+  ::-moz-selection {
+      color: #000;
+      background-color: var(--Transparent);
+  }
+  body{
+    background: var(--Very-light-gray)
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700&display=swap');
+  .container1{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    min-height: 100vh;
+    position: relative;
+      margin-top: -150px;
+      
+      z-index: 88;
+  
+    align-content: center;
+    align-items: center;
+  }
+  .card__container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+  }
+  .content__img{
+    margin: 1em;
+    width: 48px;
+    height: -30px;
+    margin-top: 2rem;
+  }
+ 
+  .img__card{
+    width: 100px; 
+    height: 100px;
+  }
+  .card__name{
+    color: var(--Very-light-gray);
+    font-family: var(--font2);
+    text-transform: uppercase;
+    margin: 0.9em;
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .card__parr{
+    margin: 0 1em;
+    width: 11rem;
+    ;
+  }
+  h1{
+    color: black;
+    font-family: var(--font1);
+    font-weight:inherit;
+    font-size: 0.8rem;
+    margin-bottom: 4em;
+    font-weight: bold;
+  }
+  p{
+    color: black;
+    font-family: var(--font1);
+    font-weight:inherit;
+    font-size: 0.8rem;
+    /* margin-bottom: 4em; */
+  }
+  
+  /*COLOR OF THE CARDS*/
+  
+  .card__leading{
+    box-shadow: 40px;;
+    border-style: solid;
+    border-color: white;
+    margin: 0.5rem;
+  }
+  #card2{
+    background-color:rgb(53, 162, 206)!important;
+    border-color: rgb(53, 162, 206)!important;
+    
+  }
+  
+  
+  
+  /* END COLOR OF THE CARDS*/
+  @media screen and (max-width:900px) {
+    .container1{
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      min-height: none !important;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      margin: 2em 1em;
+      
+    }
+    
+    
+  }

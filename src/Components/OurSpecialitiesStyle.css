@@ -1,0 +1,62 @@
+.outerDiv{
+    background-color: #F5F5F5;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.services{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading{
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: -10px;
+}
+.vect{
+    width: 50px;
+    height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-title{
+    margin-top: 5px;
+    color: #353535;
+    font-family: 'Titillium Web';
+    font-style: normal;
+}
+.card-text{
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3a3939;
+    /* text-align: left;
+    margin-top: 15px; */
+}
+h3{
+    color: #1E4787;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.left{
+    width: 20%;
+    float: left;
+    /* text-align: left; */
+}
+.cards-wrapper{
+    column-gap: 1px;
+}
+.row-spacing{
+    margin-bottom: 15px;
+}

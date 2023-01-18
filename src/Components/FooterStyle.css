@@ -1,0 +1,110 @@
+:root {
+    --primary: white;
+    --dark: #23355E;
+    --body: #888;
+    --white: #ffffff;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.logo {
+    width: 150px;
+
+}
+
+#tagLine{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#hospitalDesc{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.text-white{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.shapeImage{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+   margin-top: 15px;
+}
+
+span {
+    color: var(--white);
+    margin-right: 13px;
+    font-size: 13px;
+    font-weight: 400;    
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.footer-top a {
+    color: var(--white);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #1370B5;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: var(--dark);
+    border-radius: 2px solid var(--primary);
+    /* color: var(--white); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-right: 10px;
+    transition: all 0.4s ease;
+    border: 2px solid var(--primary);
+}
+
+.social-icons a:hover {
+    color: var(--dark);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+#locationIcons li i{
+    margin-right: 13px;
+}

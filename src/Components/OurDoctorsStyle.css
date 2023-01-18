@@ -1,0 +1,47 @@
+.outerDiv1{
+    align-items: center;
+    padding-bottom: 80px;
+}
+.ourDoctor{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading{
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: -10px;
+}
+.vect{
+    width: 50px;
+    height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imgDiv{
+/*     
+    height: 370px; */
+    /* position: relative;
+    left: 1.85%;
+    right: 1.85%;
+    top: 4.5px; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contactLine{
+    margin-top: 45px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #363636;
+}
+span{
+    font-weight: 800;
+    color: #1370B5;
+}
