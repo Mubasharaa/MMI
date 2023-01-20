@@ -33,16 +33,19 @@
     grid-template-columns: repeat(3, auto);
     min-height: 100vh;
     position: relative;
-      margin-top: -150px;
+      margin-top: -190px;
       
       z-index: 88;
-  
+ margin-left: 40px;
+ margin-right: 40px;
     align-content: center;
     align-items: center;
+
   }
   .card__container{
     padding-left: 2rem;
     padding-right: 2rem;
+    
 
   }
   .content__img{
@@ -64,24 +67,43 @@
     font-size: 2em;
     margin-top: 1em;
   }
+  .card__parr153 {
+    /* margin: 0 1em; */
+    padding: 0rem 15px;
+    /* margin: 0 auto; */
+    float: none;
+    margin-bottom: 10px
+  }  
+  .card__parr153 h1 {
+    /* margin: 0 1em; */
+    /* padding: 0rem 15px; */
+    /* margin: 0 auto; */
+    /* float: none; */
+    margin-bottom: 2rem;
+  }
+
   .card__parr{
-    margin: 0 1em;
-    width: 11rem;
-    ;
+    /* margin: 0 1em; */
+    width: 12rem;
+    
+    margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        
   }
   h1{
     color: black;
-    font-family: var(--font1);
+    font-family: Titillium Web ;
     font-weight:inherit;
-    font-size: 0.8rem;
+    font-size:1.2rem;
     margin-bottom: 4em;
     font-weight: bold;
   }
   p{
-    color: black;
-    font-family: var(--font1);
+    color: #666666;
+    font-family: Open Sans;
     font-weight:inherit;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     /* margin-bottom: 4em; */
   }
   
@@ -92,14 +114,20 @@
     border-style: solid;
     border-color: white;
     margin: 0.5rem;
+    background-image: url("./images/backgrounde.png");
   }
   #card2{
     background-color:rgb(53, 162, 206)!important;
     border-color: rgb(53, 162, 206)!important;
+    background-image: url("./images/background2.png");
     
+  
+  
   }
   
-  
+  #lead{
+    color: white;
+  }
   
   /* END COLOR OF THE CARDS*/
   @media screen and (max-width:900px) {

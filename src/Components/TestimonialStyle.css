@@ -72,7 +72,7 @@
     overflow: hidden;
 }
 .carousel-inner {
-    height: 300px;
+    height: 100%;
     margin: auto;
     width: 100%;
 }
@@ -94,6 +94,21 @@
     height: 40px;
     margin-top: -20px;
     top: 10%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     padding: 5px;
     border-radius: 50%;
 }

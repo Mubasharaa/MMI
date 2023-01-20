@@ -23,7 +23,7 @@ function Paragraph() {
       
       <div className='col-md-6 col-sm-12'>
         <div className='par1'>
-        <p  >Welcome to Memon Medical Institute Hospital</p>
+        <p id="w" >Welcome to Memon Medical Institute Hospital</p>
         <h1 id='head'>Providing World Class Healthcaresince 2010</h1>
         <img src={heartbeat} className="heartbeats" alt="" />
         <p className='parag'>Memon Medical Institute Hospital (MMI Hospital) is a tertiary care

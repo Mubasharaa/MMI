@@ -1,60 +1,72 @@
-.topBar{
+@media screen and (min-width: 600px) {
+    .navBarDiv {
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        padding: 0px;
+        border-radius: 40px;
+        background-color: #F5F5F5;
+        height: 30px;
+
+    }
+}
+
+.topBar {
     height: 10px;
     background-color: #2373B1;
 }
-.navOuterDiv{
-    width: 100%;
-    margin: auto;
+
+.iconLinks a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
 }
-#callNum{
+
+.homeLink,
+.donateLink {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    color: black;
+}
+
+#navbarSupportedContent .navLinksDiv .dropdown .nav-link {
+    margin-top: 40px;
+    font-size: 12px;
+    color: black;
+
+}
+
+#callNum {
     margin-left: 60px;
     padding: 5px;
+    font-size: 14px;
 }
-#callNum i{
+
+#callNum i {
     padding-right: 10px;
     color: #2373B1;
 }
-.navBarDiv{
-    margin-left: 60px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 60px;
-    padding: 0px;
-    border-radius: 40px;
-    background-color: #F5F5F5;
-    height: 30px;
-    /* width: 80%; */
-}
-.navBarDiv img{
-    margin-left: 20px;
+
+.navBarDiv img {
     width: 45px;
     height: 40px;
 }
-.firstIcon{
-    text-align: right;
-    margin-left: 780px;
-}
-.navBarDiv form ul{
-    margin-left: 80px;
-}
-.navBarDiv form ul li{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 12px;
-}
-#search a {
+
+#search>i {
     width: 34px;
     height: 34px;
     background-color: white;
     border-radius: 2px solid white;
-    /* color: var(--white); */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     margin-right: 10px;
-    margin-top: 0px;
-    transition: all 0.4s ease;
+    margin-top: 32px;
+    cursor: pointer;
     border: 2px solid white;
     box-shadow: 2px 2px rgb(223, 220, 220);
 }
@@ -64,4 +76,3 @@
     background-color: #2373B1;
     border-color: #2373B1;
 }
-

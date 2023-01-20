@@ -5,7 +5,8 @@ import { useMediaQuery } from 'react-responsive'
 
 
 export default function Friends() {
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+    const isPortrait = useMediaQuery({ query: '(orientation: portrait)'})
     return (
         <div className='logoSlider'>
           
@@ -14,7 +15,7 @@ export default function Friends() {
             <div className='container d-flex justify-content-center'>
                 <img src="./images/Vector.png" className='vect' alt="" />
             </div>
-            <Carousel itemsToShow={isTabletOrMobile ? 6 : 2}>
+            <Carousel itemsToShow={isPortrait ? 2 :  isTabletOrMobile === true ? 3 : 6}>
                 <span><img src="./images/logo1.png" alt="logo1.png" width={"100px"} /></span>
                 <span><img src="./images/logo2.png" alt="logo2.png" width={"100px"} /></span>
                 <span><img src="./images/logo3.png" alt="logo3.png" width={"100px"} /></span>

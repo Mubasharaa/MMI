@@ -16,11 +16,11 @@ function Card() {
 <img src={quality} className="img__card" loading="lazy" alt="eljimmyramz Jaime Ramirez" title="eljimmyramz Jaime Ramirez"  />
           </div>
        
-          <div className="card__parr">
+          <div className="card__parr153">
                         <h1>Quality and safety</h1>
             <p>
             Our hospital utilizes state of the art
-technology and employs a team of trueexperts.
+technology and employs a team of true experts.
             </p>
             </div>
  
@@ -33,8 +33,8 @@ technology and employs a team of trueexperts.
             <img src={leading} className="img__card" loading="lazy" alt="eljimmyramz Jaime Ramirez" title="eljimmyramz Jaime Ramirez"  />
           </div>
        
-          <div className="card__parr">
-            <h1>Leading and Technology</h1>
+          <div className="card__parr153">
+            <h1 id="lead">Leading Technology</h1>
             <p>
            Our hospital utilizes satate of the art technology and employsateam of true experts .
             </p>
@@ -48,7 +48,7 @@ technology and employs a team of trueexperts.
 <img src={experience} className="img__card " loading="lazy" alt="eljimmyramz Jaime Ramirez" title="eljimmyramz Jaime Ramirez"  />
           </div>
        
-          <div className="card__parr">
+          <div className="card__parr153" >
 <h1>Experts by Experience</h1>
             <p>
             Our hospital utilizes satate of the art technology and employsateam of true experts .

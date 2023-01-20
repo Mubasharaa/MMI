@@ -8,6 +8,10 @@
    height: 400px;
   
 }
+#w{
+    padding-left: 30px;
+    font-size: 14px;
+}
 
 .image1{
  
@@ -20,9 +24,12 @@
 }
 .heartbeats{
     padding-top: 2px;
+    padding-left: 30px;
 }
 .parag{
     padding-top: 7px;
+    padding-left: 30px;
+    font-size: 18px;
 }
 .btn {
     height: 50px;
@@ -30,4 +37,6 @@
 }
 #head{
     color: rgb(80, 165, 198);
+    padding-left: 30px;
+    font-size: 18px;
 }

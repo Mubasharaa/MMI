@@ -48,8 +48,8 @@ export default function Footer() {
                         <ul class="list-unstyled" id='locationIcons'>
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i>Hyder Buksh Gabol Road,
                                 Safoora Chowrangi, Karachi, Pakistan.</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i>02134691147-54, <br/>02134691159-64</li>
-                            <li><i class="fa fa-envelope" aria-hidden="true"></i>Do you have a Question? <br/> info@mmi.edu.pk</li>
+                            <li class="ph"><i class="fa fa-phone" aria-hidden="true"></i>02134691147-54, <br/>02134691159-64</li>
+                            <li class="ph"><i class="fa fa-envelope" aria-hidden="true"></i>Do you have a Question? <br/> info@mmi.edu.pk</li>
                         </ul>
                     </div>
                 </div>
